@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #FFFDF5;
+    
+}
+body{
+padding-top: 110px;
+
+}
+
+.top{
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 1000;
+    width: 100%;
+    padding: 0 15px;
+    height: 100px;
+   margin: 0;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    flex-wrap:nowrap;
+    box-sizing: border-box;
+    
+
+}
+#l1{
+  color: #f8cb46 ;
+  font-size: 45px; 
+}
+#l2{
+    color: #07556A;
+    font-size: 45px;
+}
+#del{
+   
+    color: #0A3152;
+    font-size: 30px;
+   
+    flex: 0 0 auto;
+}
+#search{
+border: 1px solid;
+height: 60px;
+min-width: 0;
+padding-left: 15px;
+border-radius: 20px;
+flex: 1;
+gap: 16px;
+align-items: center;
+font-size: 23px;
+
+
+}
+#button{
+    border:1px solid;
+    height: 50px;
+    background-color: #FFFDF5;
+    border-color: #FFFDF5;
+    font-size: 30px;
+    color: #0A3152;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#cart{
+     border:1px solid;
+    height: 50px;
+    background-color: #FFFDF5;
+    border-color: #FFFDF5;
+    font-size: 25px;
+    font-weight: bold;
+    flex: 0 0 auto;
+    align-items: center;
+    padding-left: 15px;
+    color: #0A3152;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#cartIcon{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    
+}
+#shopNow{
+   border-radius: 19px;
+   display: block;
+   width: 100%;
+   height: auto;
+   
+}
+
+#shopNow2{
+   border-radius: 19px;
+   display: block;
+   width: 98%;
+   height: auto;
+   padding-left: 10px;
+   padding-top: 15px;
+   
+}
+.image{
+   border-radius: 19px;
+   display: flex;
+   padding-top: 15px;
+   height: auto;
+   padding-left: 10px;
+   overflow-x: scroll;
+
+}
+.image2{
+   border-radius: 19px;
+   display: flex;
+   padding-top: 15px;
+   height: auto;
+   padding-left: 10px;
+   overflow-x: scroll;
+   
+}
+
+#use{
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.links{
+    display: flex;
+    gap: 100px;
+    
+}
+.links ul{
+    list-style: none;
+    margin-left: 10px;
+}
+.links li{
+    font-size: 20px;
+    color:#0A3152 ;
+    margin-bottom: 17px;
+}
+
+
+
+
+
