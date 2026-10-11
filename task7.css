@@ -151,17 +151,29 @@ font-size: 23px;
     #l1, #l2 {
         font-size: 25px;
     }
+    #search{
+        font-size: 14px;
+        height: 35px;
+    }
 
     #del {
         font-size: 14px;
     }
 
     #button, #cart {
-        font-size: 15px;
+        font-size: 14px;
+        padding-left: 3px;
+    }
+    #cartIcon{
+        width:20px ;
+        height: 20px;
     }
 
     .links {
         gap: 15px;
+    }
+    .links li{
+        font-size: 14px;
     }
 }
 
