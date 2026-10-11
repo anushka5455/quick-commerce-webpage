@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     background-color: #FFFDF5;
+   
     
 }
 body{
@@ -141,7 +142,28 @@ font-size: 23px;
     color:#0A3152 ;
     margin-bottom: 17px;
 }
+@media (max-width: 600px) {
+    .top {
+        gap: 5px;
+        padding: 5px;
+    }
 
+    #l1, #l2 {
+        font-size: 25px;
+    }
+
+    #del {
+        font-size: 14px;
+    }
+
+    #button, #cart {
+        font-size: 15px;
+    }
+
+    .links {
+        gap: 15px;
+    }
+}
 
 
 
